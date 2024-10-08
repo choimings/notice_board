@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>게시판</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1>게시판</h1>
+      </header>
+
+      <!-- 게시글 작성 폼 -->
+      <section class="post-form">
+        <h2>새 게시물 작성</h2>
+        <input type="text" id="postTitle" placeholder="제목을 입력하세요" />
+        <textarea id="postContent" placeholder="내용을 입력하세요"></textarea>
+        <button id="submitPost">게시</button>
+      </section>
+
+      <!-- 게시글 목록 -->
+      <section class="post-list" id="postList">
+        <h2>게시물 목록</h2>
+        <!-- 게시글이 이곳에 추가됩니다 -->
+      </section>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
